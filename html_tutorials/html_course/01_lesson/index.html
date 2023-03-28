@@ -4,39 +4,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="author" content="Matt Tucker">
-  <meta name="description"content="This page contains all the things I am learning how to create as I learn HTML">
+  <meta name="description" content="This page contains all the things I am learning how to create as I learn HTML">
   <link rel="icon" href="html5.png" type="image/x-icon">
   <link rel="stylesheet" href="main.css" type="text/css">
   <title>My First Web Page</title>
 </head>
 
 <body>
-  <h1>Hello World!</h1>
+  <h1>My Goals for the Year</h1>
 
   <hr>
 
+  <nav>
+    <ul>
+      <li>
+        <a href="#html">Learning HTML</a>
+      </li>
+      <li> 
+        <a href="#vacation">Planning a Vacation</a>
+      </li>
+    </ul>
+  </nav>
+
+  <hr>
+<section id="html">
   <h2>I'm Ready to Learn HTML</h2>
   <p>This is my first web page.</p>
   
   <h3>My Daily Schedule</h3>
-  <p>Let me tell you how:
-    <br>&nbsp;&nbsp;&nbsp;...I learn more about web dev.
-    <br>&nbsp;&nbsp;&nbsp;...I plan out my schedule.
-    <br>&nbsp;&nbsp;&nbsp;...I use resources from <abbr title="Mozilla Developer Network">MDN</abbr>.</p>
-
-   <hr>
-
+  <p>Let me tell you how:</p>
+    <ol>
+        <li>...I learn more about web dev.</li>
+        <li>...I plan out my schedule.</li>
+        <li>...I use resources from <abbr title="Mozilla Developer Network">
+          <a href="https://developer.mozilla.org">MDN</a>
+        </abbr>.</li>
+    </ol>
+  
+  </section>
+   
+  <hr>
+<section id="vacation">
    <h2>I'm Am Also Planning a Vacation</h2>
   <p>I've been working hard and <em>really need a getaway</em>.</p>
   <p>I live in <abbr title="Kansas">KS</abbr> so I want to visit a beach</p>
   
   <h3>Places I'd Like to Visit</h3>
-  <p>I've heard good things about the Caribbean.</p>
+  <ul>
+  <li><p>I've heard good things about the Caribbean.</p></li>
+    <li><p>I have heard good things about Margaritaville</p></li>
+</ul>
   <!--TODO: Add more places-->
+  
   <h3>Places I'd Like to Avoid</h3>
-  <p>Anywhere cold. <strong>No Way!</strong></p>
+  <dl>
+    <dt>North Pole</dt>
+    <dd>I hear this is <strong>cold</strong>!</dd>
+
+    <dt>South Pole</dt>
+    <dd>This is also cold.</dd>
+
+    <dt>Mountaintops</dt>
+    <dd>These are also cold.</dd>
+  </dl>
+
+</section>
+  
 <hr>
-&lt;&lt;&lt; &copy; Matt Tucker &gt;&gt;&gt;
+&lt;&lt;&lt; &copy; <a href="about.html">
+ Matt Tucker</a> &gt;&gt;&gt;
+
+ <p>
+  <a href="#">Back to Top</a>
+ </p>
 </body>
 
 </html>
